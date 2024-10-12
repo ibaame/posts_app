@@ -1,0 +1,47 @@
+=========== important packages
+- flutter_bloc: for state managment
+- dartz: Functional programming things => return two things <left,right>
+- equatable: comapner between entities
+- http: for links or use api
+- shared_preferences: local cache
+- internet_connection_checker or .. : check connection
+- get_it: ??
+
+
+=========== definitions
+
+- entities : for objects without functions as ( covnert json..)
+- domain/repositories : is contain functions of entites inside abstract class as (add..)
+- data/repositories: use(implement) domain/repositries
+- domain/usecases: usecases (functions in domain/repositories)
+
+
+
+=========== start from
+
+* clean file (main.dart & pubspec.yaml)
+* add important packages => pubspec.maml
+* create folders (core,features,domain..)
+
+* create data sample to ease to create domain folder
+* start create folders and files for one feature
+- domain/entities
+- domain/repositories=> with Failure,return
+- create core/errors => failure & exceptions
+- domain/usecases
+========== folders
+- core
+- features
+- - feature_name
+- - - data
+- - - - datasources
+- - - - models
+- - - - repositories
+- - - domain
+- - - - entites
+- - - - usecases
+- - - - repositories
+- - - presentation
+- - - - bloc
+- - - - screens
+- - - - widgets

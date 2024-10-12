@@ -1,0 +1,15 @@
+course: https://youtube.com/playlist?list=PLwJ4sQ79Ehm69Bmed-XrRCc-_H1R3nWhd&si=h63Wt8YI3Z-XRyd_
+
+* josn placeholder for api & postman app
+
+=====================
+
+
+
+
+* can use 
+- theme
+- connection
+- localiztion
+- infinite scroll
+- api
